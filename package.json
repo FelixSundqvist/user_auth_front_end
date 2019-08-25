@@ -3,9 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^3.0.1",
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link": "^1.2.12",
+    "apollo-link-context": "^1.0.18",
+    "apollo-link-error": "^1.1.11",
+    "apollo-link-http": "^1.5.15",
+    "graphql": "^14.5.0",
+    "graphql-tag": "^2.10.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
   },
   "scripts": {
     "start": "react-scripts start",
